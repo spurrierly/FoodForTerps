@@ -81,18 +81,20 @@ if ($conn->query($sql)) {
 			//echo "Restaurant: " . $row["name"]. " Address: " . $row["address"]. " ";
 
 			echo $row['name']; // Print a single column data
-			echo print_r($row); // Print the entire row data
+			//echo print_r($row); // Print the entire row data
+			echo "<br><br><b> Address: </b>";
+			echo $row['address'];
 	}
 
 
 /*	if (mysqli_num_rows($result) > 0) {
 	    // output data of each row
-	    while($row = mysql_fetch_array($result)) {
-	        //echo "Restaurant: " . $row["name"]. " Address: " . $row["address"]. " ";
+			while($row = mysqli_fetch_array($result)) {
+					//echo "Restaurant: " . $row["name"]. " Address: " . $row["address"]. " ";
 
 					echo $row['name']; // Print a single column data
-			    echo print_r($row); // Print the entire row data
-	    }
+					echo print_r($row); // Print the entire row data
+			}
 	} else {
 	    echo "<h1>0 results, Sorry! Food For Terps is still looking for restaurants to fit your needs</h1> ";
 	} */
