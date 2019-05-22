@@ -64,17 +64,25 @@ if ($conn->query($sql)) {
 
 //Query from restaurant database
 
-	$output = "SELECT name, address FROM restaurants WHERE diet=$diet AND cuisine LIKE $cuisine";
-	$result = $conn->query($output);
+	$query =
+	"SELECT name, address
+	FROM restaurants
+	WHERE diet = '".$diet."'
+	AND cuisine = '".$cuisine."' ";
+	$result = $conn->query($query);
 
-	if ($result->num_rows > 0) {
+
+	echo "Restaurant: " . $row["name"]. " Address: " . $row["address"]. " ";
+
+
+	/* if ($result->num_rows > 0) {
 	    // output data of each row
 	    while($row = $result->fetch_assoc()) {
 	        echo "Restaurant: " . $row["name"]. " Address: " . $row["address"]. " ";
 	    }
 	} else {
 	    echo "<h1>0 results, Sorry! Food For Terps is still looking for restaurants to fit your needs</h1> ";
-	}
+	} */
 
 
 } else {

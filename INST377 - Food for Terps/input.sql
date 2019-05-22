@@ -18,7 +18,15 @@ SET time_zone = "+00:00";
 
 --
 -- Database: `foodforterps`
+CREATE DATABASE IF NOT EXISTS `foodforterps`;
+
+USE `foodforterps`;
+
 --
+-- Table structure for table `input'
+--
+
+DROP TABLE IF EXISTS `input`;
 
 -- --------------------------------------------------------
 
