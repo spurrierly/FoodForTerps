@@ -49,13 +49,13 @@ CREATE TABLE `restaurant` (
 --
 
 INSERT INTO `restaurant` (`id`, `name`, `address`, `diet`, `cuisine`, `rate`, `price`) VALUES
-(1, 'Krazi Kebob', '4427 Lehigh Rd, College Park, MD 20740', 'halal, vegan, vegetarian', 'Pakastani', 4, 1),
-(2, 'UMD Hillel', '7612 Mowatt Ln, College Park, MD 20740', 'kosher', 'Jewish', 5, 1),
-(3, 'Nuvegan Café', '8150 Baltimore Ave, College Park, MD 20740', 'vegan, vegetarian', 'American', 4, 2),
-(4, 'Jason\'s Deli', '7356 Baltimore Ave, College Park, MD 20740', 'vegetarian', 'American', 4, 2),
-(5, 'Nandos Peri Peri\r\n', '7400 Baltimore Ave, College Park, MD 20740', 'vegetarian', 'African', 4, 3),
-(6, 'Terrapin\'s Turf', '4410 Knox Road, College Park, MD 20740', 'none', 'Bar', 3, 1),
-(7, 'RJ Bently\'s', '7323 Baltimore Ave, College Park, MD 20740', 'none', 'Bar', 2, 1);
+(1, 'Krazi Kebob', '4427 Lehigh Rd, College Park, MD 20740', 'Halal, Vegan, Vegetarian', 'Pakistani', 4, 1),
+(2, 'UMD Hillel', '7612 Mowatt Ln, College Park, MD 20740', 'Kosher', 'Jewish', 5, 1),
+(3, 'Nuvegan Cafe', '8150 Baltimore Ave, College Park, MD 20740', 'Vegan, Vegetarian', 'American', 4, 2),
+(4, 'Jason\'s Deli', '7356 Baltimore Ave, College Park, MD 20740', 'Vegetarian', 'American', 4, 2),
+(5, 'Nandos Peri Peri\r\n', '7400 Baltimore Ave, College Park, MD 20740', 'Vegetarian', 'African', 4, 3),
+(6, 'Terrapin\'s Turf', '4410 Knox Road, College Park, MD 20740', 'None', 'Bar', 3, 1),
+(7, 'RJ Bently\'s', '7323 Baltimore Ave, College Park, MD 20740', 'None', 'Bar', 2, 1);
 
 --
 -- Indexes for dumped tables
