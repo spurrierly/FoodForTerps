@@ -67,7 +67,7 @@ if ($conn->query($sql)) {
 	$query =
 	"SELECT name, address
 	FROM restaurant
-	WHERE diet = '".$diet."'
+	WHERE diet LIKE '%".$diet."%'
 	AND cuisine = '".$cuisine."' ";
 	//$result = $conn->query($query);
 	$result = mysqli_query($conn, $query);
@@ -75,29 +75,20 @@ if ($conn->query($sql)) {
 	if (!$result) {
     printf("Error: %s\n", mysqli_error($conn));
     exit();
-}
-
-	while($row = mysqli_fetch_array($result)) {
-			//echo "Restaurant: " . $row["name"]. " Address: " . $row["address"]. " ";
-
-			echo $row['name']; // Print a single column data
-			//echo print_r($row); // Print the entire row data
-			echo "<br><br><b> Address: </b>";
-			echo $row['address'];
 	}
 
+	if ($result->num_rows > 0) {
+		while($row = mysqli_fetch_array($result)) {
+			echo "Try out ", $row['name'], "!"; // Print a single column data
+			echo "</br>";
+			echo "</br>";
+			echo "The address to ", $row['name'], " is " , $row['address'];
+		}
+	}	else{
+		echo "Sorry! 0 results.";
+		echo "<br> Food For Terps is still working on expanding our database!";
+	}
 
-/*	if (mysqli_num_rows($result) > 0) {
-	    // output data of each row
-			while($row = mysqli_fetch_array($result)) {
-					//echo "Restaurant: " . $row["name"]. " Address: " . $row["address"]. " ";
-
-					echo $row['name']; // Print a single column data
-					echo print_r($row); // Print the entire row data
-			}
-	} else {
-	    echo "<h1>0 results, Sorry! Food For Terps is still looking for restaurants to fit your needs</h1> ";
-	} */
 
 
 } else {
