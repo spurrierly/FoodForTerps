@@ -70,7 +70,7 @@ if ($conn->query($sql)) {
 	if ($result->num_rows > 0) {
 	    // output data of each row
 	    while($row = $result->fetch_assoc()) {
-	        echo "Restaurant: " . $row["name"]. "Address: " . $row["firstname"]. " " "<br>";
+	        echo "Restaurant: " . $row["name"]. " Address: " . $row["address"]. " ";
 	    }
 	} else {
 	    echo "<h1>0 results, Sorry! Food For Terps is still looking for restaurants to fit your needs</h1> ";
