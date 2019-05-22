@@ -51,7 +51,6 @@ if ($conn->query($sql)) {
 	echo "Dietary Restriction: <strong>$diet</strong> <br><br>";
 	echo "Cuisine: <strong>$cuisine </strong><br><br>";
 	echo "Average Rating: <strong>$rate star</strong> <br><br>";
-
 	//price output: cheap, moderate, expensive
 	if ($price == 1){
 		echo "Price Range: <strong>Cheap</strong> <br><br><br>";
@@ -62,15 +61,19 @@ if ($conn->query($sql)) {
 	}
 
 	echo "<h3>Based on your preferences Food For Terps recommends:</h3>";
-//mimics output based on user Preferences
-	if ($cuisine == "Bar"){
-		echo "<h1> R.J. Bentley's </h1> ";
-	} else if ($cuisine == "Pakistani"){
-		echo "<h1> Krazi Kebob </h1> ";
-	}else if ($diet == "Vegan"){
-			echo "<h1> Nuvegan Cafe </h1> ";
+
+//Query from restaurant database
+
+	$output = "SELECT name, address FROM restaurants WHERE diet=$diet AND cuisine LIKE $cuisine";
+	$result = $conn->query($output);
+
+	if ($result->num_rows > 0) {
+	    // output data of each row
+	    while($row = $result->fetch_assoc()) {
+	        echo "Restaurant: " . $row["name"]. "Address: " . $row["firstname"]. " " "<br>";
+	    }
 	} else {
-		echo "<h1> Food For Terps is still looking for restaurants to fit your needs</h1> ";
+	    echo "<h1>0 results, Sorry! Food For Terps is still looking for restaurants to fit your needs</h1> ";
 	}
 
 
