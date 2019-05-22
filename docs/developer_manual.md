@@ -1,0 +1,45 @@
+Food For Terps
+
+- Necessary Software/ System Environment
+  - Server and corresponding database
+    - The SQL database will need to be hosted on your companies server
+    - After importing the database and establishing the schema, the code will be able to pull entries from the database
+- File Structure
+  - FFT\_data.xlsx
+    - File contains all relevant restaurant metadata that is then stored in the database
+  - FFT\_Input.html
+    - Simple HTML code creates the input form for users to enter their desired restaurant criteria
+  - FFT\_JS.js
+    - This is a javascript file that contains the code to create the necessary hover over effect on the submit button
+    - This uses the JQuery framework
+  - input.sql
+    - This is the SQL file that contains the code for the database
+    - This has been forward engineered to create the schema
+  - restaurant.sql
+    - Creates restaurant database with local College Park restaurants
+  - FFT\_INPUT\_CSS
+    - External styling sheet that provides the user with a streamline layout for the HTML landing page
+    - This file only updates the FFT\_Input.html document
+  - FFT\_OUTPUT\_CSS
+    - External styling sheet that provides the user with a streamline layout for the HTML landing page
+    - This CSS styling sheet updates the HTML in the PHP file
+  - FFT\_PHP
+    - The PHP file contains all of the necessary code to link the HTML files to the SQL database
+- Database Structure
+  - Input table
+    - Holds user inputed criteria
+    - Consists of 5 columns
+      - Id
+      - Diet
+      - Cuisine
+      - Rate
+      - price
+  - Restaurant table
+    - Holds College Park restaurant information and metadata
+    - Consists of 7 columns
+      - Id
+      - Name
+      - Address
+      - Diet
+      - Cuisine
+      - Rate
