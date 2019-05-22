@@ -1,0 +1,551 @@
+{
+  "popularity": "3.48",
+  "nightlife_index": "0.86",
+  "nearby_res": [
+    "16869069",
+    "16865715",
+    "16869664",
+    "16871709",
+    "16867951",
+    "16875700",
+    "16868315",
+    "16867199",
+    "16876197"
+  ],
+  "top_cuisines": [
+    "Fast Food",
+    "Pizza",
+    "American",
+    "Sandwich",
+    "Chinese"
+  ],
+  "popularity_res": "100",
+  "nightlife_res": "10",
+  "subzone": "College Park",
+  "subzone_id": 115849,
+  "city": "Prince George's County",
+  "location": {
+    "entity_type": "subzone",
+    "entity_id": 115849,
+    "title": "College Park, Prince George's County",
+    "latitude": 38.990858,
+    "longitude": -76.931928,
+    "city_id": 11181,
+    "city_name": "Prince George's County",
+    "country_id": 216,
+    "country_name": "United States"
+  },
+  "num_restaurant": 130,
+  "best_rated_restaurant": [
+    {
+      "restaurant": {
+        "R": {
+          "res_id": 16867965
+        },
+        "apikey": "2fd4afbbe215d0007f38dc796e5cc584",
+        "id": "16867965",
+        "name": "Hard Times Cafe",
+        "url": "https://www.zomato.com/prince-georges-county-md/hard-times-cafe-1-college-park?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "4738 Cherry Hill Rd, College Park 20740",
+          "locality": "College Park",
+          "city": "Prince George's County",
+          "city_id": 11181,
+          "latitude": "39.0164940000",
+          "longitude": "-76.9311540000",
+          "zipcode": "20740",
+          "country_id": 216,
+          "locality_verbose": "College Park, Prince George's County"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "Burger, Bar Food, Tex-Mex",
+        "average_cost_for_two": 75,
+        "price_range": 4,
+        "currency": "$",
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "",
+        "user_rating": {
+          "aggregate_rating": "4.1",
+          "rating_text": "Very Good",
+          "rating_color": "5BA829",
+          "votes": "48"
+        },
+        "photos_url": "https://www.zomato.com/prince-georges-county-md/hard-times-cafe-1-college-park/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "menu_url": "https://www.zomato.com/prince-georges-county-md/hard-times-cafe-1-college-park/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "include_bogo_offers": true,
+        "deeplink": "zomato://restaurant/16867965",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https://www.zomato.com/prince-georges-county-md/hard-times-cafe-1-college-park/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1"
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "res_id": 16869069
+        },
+        "apikey": "2fd4afbbe215d0007f38dc796e5cc584",
+        "id": "16869069",
+        "name": "Marathon Deli",
+        "url": "https://www.zomato.com/prince-georges-county-md/marathon-deli-1-college-park?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "4429 Lehigh Rd, College Park 20740",
+          "locality": "College Park",
+          "city": "Prince George's County",
+          "city_id": 11181,
+          "latitude": "38.9816520000",
+          "longitude": "-76.9385960000",
+          "zipcode": "20740",
+          "country_id": 216,
+          "locality_verbose": "College Park, Prince George's County"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "Greek, Pizza, Sandwich",
+        "average_cost_for_two": 25,
+        "price_range": 2,
+        "currency": "$",
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "",
+        "user_rating": {
+          "aggregate_rating": "4.4",
+          "rating_text": "Very Good",
+          "rating_color": "5BA829",
+          "votes": "44"
+        },
+        "photos_url": "https://www.zomato.com/prince-georges-county-md/marathon-deli-1-college-park/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "menu_url": "https://www.zomato.com/prince-georges-county-md/marathon-deli-1-college-park/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "include_bogo_offers": true,
+        "deeplink": "zomato://restaurant/16869069",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https://www.zomato.com/prince-georges-county-md/marathon-deli-1-college-park/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1"
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "res_id": 16865715
+        },
+        "apikey": "2fd4afbbe215d0007f38dc796e5cc584",
+        "id": "16865715",
+        "name": "Bagel Place of College Park",
+        "url": "https://www.zomato.com/prince-georges-county-md/bagel-place-of-college-park-1-college-park?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "7423 Baltimore Avenue, College Park 20740",
+          "locality": "College Park",
+          "city": "Prince George's County",
+          "city_id": 11181,
+          "latitude": "38.9816420000",
+          "longitude": "-76.9376220000",
+          "zipcode": "20740",
+          "country_id": 216,
+          "locality_verbose": "College Park, Prince George's County"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "Coffee and Tea, Sandwich",
+        "average_cost_for_two": 25,
+        "price_range": 2,
+        "currency": "$",
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "",
+        "user_rating": {
+          "aggregate_rating": "4.5",
+          "rating_text": "Excellent",
+          "rating_color": "3F7E00",
+          "votes": "45"
+        },
+        "photos_url": "https://www.zomato.com/prince-georges-county-md/bagel-place-of-college-park-1-college-park/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "menu_url": "https://www.zomato.com/prince-georges-county-md/bagel-place-of-college-park-1-college-park/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "include_bogo_offers": true,
+        "deeplink": "zomato://restaurant/16865715",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https://www.zomato.com/prince-georges-county-md/bagel-place-of-college-park-1-college-park/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1"
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "res_id": 16869664
+        },
+        "apikey": "2fd4afbbe215d0007f38dc796e5cc584",
+        "id": "16869664",
+        "name": "Noodles & Company",
+        "url": "https://www.zomato.com/prince-georges-county-md/noodles-company-1-college-park?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "7320 Baltimore Avenue 20740",
+          "locality": "College Park",
+          "city": "Prince George's County",
+          "city_id": 11181,
+          "latitude": "38.9801478311",
+          "longitude": "-76.9390713567",
+          "zipcode": "20740",
+          "country_id": 216,
+          "locality_verbose": "College Park, Prince George's County"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "Asian, Fast Food",
+        "average_cost_for_two": 25,
+        "price_range": 2,
+        "currency": "$",
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "",
+        "user_rating": {
+          "aggregate_rating": "3.9",
+          "rating_text": "Good",
+          "rating_color": "9ACD32",
+          "votes": "32"
+        },
+        "photos_url": "https://www.zomato.com/prince-georges-county-md/noodles-company-1-college-park/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "menu_url": "https://www.zomato.com/prince-georges-county-md/noodles-company-1-college-park/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "include_bogo_offers": true,
+        "deeplink": "zomato://restaurant/16869664",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https://www.zomato.com/prince-georges-county-md/noodles-company-1-college-park/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1"
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "res_id": 16871709
+        },
+        "apikey": "2fd4afbbe215d0007f38dc796e5cc584",
+        "id": "16871709",
+        "name": "Ten Ren's Tea Time",
+        "url": "https://www.zomato.com/prince-georges-county-md/ten-rens-tea-time-1-college-park?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "7418 Baltimore Avenue, College Park 20740",
+          "locality": "College Park",
+          "city": "Prince George's County",
+          "city_id": 11181,
+          "latitude": "38.9816500000",
+          "longitude": "-76.9381760000",
+          "zipcode": "20740",
+          "country_id": 216,
+          "locality_verbose": "College Park, Prince George's County"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "Asian, Coffee and Tea, Sandwich",
+        "average_cost_for_two": 25,
+        "price_range": 2,
+        "currency": "$",
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "",
+        "user_rating": {
+          "aggregate_rating": "3.9",
+          "rating_text": "Good",
+          "rating_color": "9ACD32",
+          "votes": "29"
+        },
+        "photos_url": "https://www.zomato.com/prince-georges-county-md/ten-rens-tea-time-1-college-park/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "menu_url": "https://www.zomato.com/prince-georges-county-md/ten-rens-tea-time-1-college-park/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "include_bogo_offers": true,
+        "deeplink": "zomato://restaurant/16871709",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https://www.zomato.com/prince-georges-county-md/ten-rens-tea-time-1-college-park/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1"
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "res_id": 16867951
+        },
+        "apikey": "2fd4afbbe215d0007f38dc796e5cc584",
+        "id": "16867951",
+        "name": "Hanami",
+        "url": "https://www.zomato.com/prince-georges-county-md/hanami-1-college-park?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "8145- Baltimore Ave, College Park 20740",
+          "locality": "College Park",
+          "city": "Prince George's County",
+          "city_id": 11181,
+          "latitude": "38.9913090000",
+          "longitude": "-76.9337270000",
+          "zipcode": "20740",
+          "country_id": 216,
+          "locality_verbose": "College Park, Prince George's County"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "Japanese, Sushi",
+        "average_cost_for_two": 75,
+        "price_range": 4,
+        "currency": "$",
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "",
+        "user_rating": {
+          "aggregate_rating": "4.1",
+          "rating_text": "Very Good",
+          "rating_color": "5BA829",
+          "votes": "35"
+        },
+        "photos_url": "https://www.zomato.com/prince-georges-county-md/hanami-1-college-park/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "menu_url": "https://www.zomato.com/prince-georges-county-md/hanami-1-college-park/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "include_bogo_offers": true,
+        "deeplink": "zomato://restaurant/16867951",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https://www.zomato.com/prince-georges-county-md/hanami-1-college-park/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1"
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "res_id": 16875700
+        },
+        "apikey": "2fd4afbbe215d0007f38dc796e5cc584",
+        "id": "16875700",
+        "name": "Fishnet",
+        "url": "https://www.zomato.com/prince-georges-county-md/fishnet-1-college-park?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "5010 Berwyn Road, College Park 20740",
+          "locality": "College Park",
+          "city": "Prince George's County",
+          "city_id": 11181,
+          "latitude": "38.9948070000",
+          "longitude": "-76.9258282000",
+          "zipcode": "20740",
+          "country_id": 216,
+          "locality_verbose": "College Park, Prince George's County"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "Sandwich, Seafood",
+        "average_cost_for_two": 75,
+        "price_range": 4,
+        "currency": "$",
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "",
+        "user_rating": {
+          "aggregate_rating": "3.9",
+          "rating_text": "Good",
+          "rating_color": "9ACD32",
+          "votes": "24"
+        },
+        "photos_url": "https://www.zomato.com/prince-georges-county-md/fishnet-1-college-park/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "menu_url": "https://www.zomato.com/prince-georges-county-md/fishnet-1-college-park/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "include_bogo_offers": true,
+        "deeplink": "zomato://restaurant/16875700",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https://www.zomato.com/prince-georges-county-md/fishnet-1-college-park/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1"
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "res_id": 16874138
+        },
+        "apikey": "2fd4afbbe215d0007f38dc796e5cc584",
+        "id": "16874138",
+        "name": "Buffalo Wild Wings",
+        "url": "https://www.zomato.com/prince-georges-county-md/buffalo-wild-wings-college-park?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "10240 Baltimore Avenue 20740",
+          "locality": "College Park",
+          "city": "Prince George's County",
+          "city_id": 11181,
+          "latitude": "39.0221240158",
+          "longitude": "-76.9252556562",
+          "zipcode": "20740",
+          "country_id": 216,
+          "locality_verbose": "College Park, Prince George's County"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "Bar Food",
+        "average_cost_for_two": 65,
+        "price_range": 4,
+        "currency": "$",
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "",
+        "user_rating": {
+          "aggregate_rating": "3.4",
+          "rating_text": "Average",
+          "rating_color": "CDD614",
+          "votes": "21"
+        },
+        "photos_url": "https://www.zomato.com/prince-georges-county-md/buffalo-wild-wings-college-park/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "menu_url": "https://www.zomato.com/prince-georges-county-md/buffalo-wild-wings-college-park/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "include_bogo_offers": true,
+        "deeplink": "zomato://restaurant/16874138",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https://www.zomato.com/prince-georges-county-md/buffalo-wild-wings-college-park/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1"
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "res_id": 16868315
+        },
+        "apikey": "2fd4afbbe215d0007f38dc796e5cc584",
+        "id": "16868315",
+        "name": "Jerk Pit",
+        "url": "https://www.zomato.com/prince-georges-county-md/jerk-pit-1-college-park?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "9078 Baltimore Avenue, College Park 20740",
+          "locality": "College Park",
+          "city": "Prince George's County",
+          "city_id": 11181,
+          "latitude": "39.0026410000",
+          "longitude": "-76.9310030000",
+          "zipcode": "20740",
+          "country_id": 216,
+          "locality_verbose": "College Park, Prince George's County"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "Caribbean, Vegetarian",
+        "average_cost_for_two": 25,
+        "price_range": 2,
+        "currency": "$",
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "",
+        "user_rating": {
+          "aggregate_rating": "3.7",
+          "rating_text": "Good",
+          "rating_color": "9ACD32",
+          "votes": "25"
+        },
+        "photos_url": "https://www.zomato.com/prince-georges-county-md/jerk-pit-1-college-park/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "menu_url": "https://www.zomato.com/prince-georges-county-md/jerk-pit-1-college-park/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "include_bogo_offers": true,
+        "deeplink": "zomato://restaurant/16868315",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https://www.zomato.com/prince-georges-county-md/jerk-pit-1-college-park/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1"
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "res_id": 16869016
+        },
+        "apikey": "2fd4afbbe215d0007f38dc796e5cc584",
+        "id": "16869016",
+        "name": "Mamma Lucia",
+        "url": "https://www.zomato.com/prince-georges-county-md/mamma-lucia-1-college-park?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "4734 Cherry Hill Rd, College Park 20740",
+          "locality": "College Park",
+          "city": "Prince George's County",
+          "city_id": 11181,
+          "latitude": "39.0165850000",
+          "longitude": "-76.9315000000",
+          "zipcode": "20740",
+          "country_id": 216,
+          "locality_verbose": "College Park, Prince George's County"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "Italian, Pizza",
+        "average_cost_for_two": 75,
+        "price_range": 4,
+        "currency": "$",
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "",
+        "user_rating": {
+          "aggregate_rating": "3.5",
+          "rating_text": "Good",
+          "rating_color": "9ACD32",
+          "votes": "27"
+        },
+        "photos_url": "https://www.zomato.com/prince-georges-county-md/mamma-lucia-1-college-park/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "menu_url": "https://www.zomato.com/prince-georges-county-md/mamma-lucia-1-college-park/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "include_bogo_offers": true,
+        "deeplink": "zomato://restaurant/16869016",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https://www.zomato.com/prince-georges-county-md/mamma-lucia-1-college-park/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1"
+      }
+    }
+  ]
+}
