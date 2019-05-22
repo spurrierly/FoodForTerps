@@ -1,4 +1,4 @@
-<b>Project Name:<b> Food for Terps
+<b>Project Name:</b> Food for Terps
  
 <b>Creators and Maintainers:</b>
 	<br>Alex Acuna, alex.acuna12@gmail.com
