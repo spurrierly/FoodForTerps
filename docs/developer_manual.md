@@ -25,6 +25,8 @@ Food For Terps
     - This CSS styling sheet updates the HTML in the PHP file
   - FFT\_PHP
     - The PHP file contains all of the necessary code to link the HTML files to the SQL database
+  - UMD_Logo.jpeg
+    - Current Food For Terps logo
 - Database Structure
   - Input table
     - Holds user inputed criteria

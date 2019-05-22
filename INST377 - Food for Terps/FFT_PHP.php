@@ -60,10 +60,9 @@ if ($conn->query($sql)) {
 		echo "Price Range: <strong>Expensive</strong> <br><br><br>";
 	}
 
-	echo "<h3>Based on your preferences Food For Terps recommends:</h3>";
+	echo "<h3>Based on your preferences Food For Terps recommends one of these restaurants:</h3>";
 
 //Query from restaurant database
-
 	$query =
 	"SELECT name, address
 	FROM restaurant
@@ -77,16 +76,31 @@ if ($conn->query($sql)) {
     exit();
 	}
 
+//Display SQL query
 	if ($result->num_rows > 0) {
 		while($row = mysqli_fetch_array($result)) {
-			echo "Try out ", $row['name'], "!"; // Print a single column data
+			echo "Try out ", $row['name'], "! The address to ", $row['name'], " is " , $row['address'];
 			echo "</br>";
-			echo "</br>";
-			echo "The address to ", $row['name'], " is " , $row['address'];
 		}
-	}	else{
+	}
+	//If no results display 0 results and alternative restaurant
+	else{
 		echo "Sorry! 0 results.";
 		echo "<br> Food For Terps is still working on expanding our database!";
+		echo "<h4><br> But based on your dietary restrictions try one of these restaurants! <br></h4>";
+
+		$backup =
+		"SELECT name, address
+		FROM restaurant
+		WHERE diet LIKE '%".$diet."%' ";
+		//$result = $conn->query($query);
+		$backupresult = mysqli_query($conn, $backup);
+
+		while($row = mysqli_fetch_array($backupresult)) {
+			echo "Try out ", $row['name'], "! The address to ", $row['name'], " is " , $row['address'];
+			echo "</br>";
+		}
+
 	}
 
 
