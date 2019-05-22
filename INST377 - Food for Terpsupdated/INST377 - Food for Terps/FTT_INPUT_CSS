@@ -1,0 +1,30 @@
+h1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 7.1em;
+}
+
+#Description {
+  margin: auto;
+  text-align: center;
+  width: 60%;
+}
+
+#Description {
+  column-count: 1;
+}
+
+#Work {
+ font-family: "Times New Roman", Times, serif;
+ font-style: bold;
+ font-size: 18px;
+ color: navy;
+ border-style: solid;
+ border-color: teal;
+}
+
+#Image {
+  width:250px;
+  height:200px;
+}
