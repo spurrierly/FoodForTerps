@@ -1,7 +1,6 @@
-Name of the project
--Food for Terps
-
-Names/Contact Information
+Project Name: Food for Terps
+ 
+Creators and Maintainers
 -Alex Acuna, alex.acuna12@gmail.com
 -Alicia Curcuru, acurcuru22@gmail.com
 -Christina Hall, hallc96@terpmail.umd.edu
@@ -9,4 +8,4 @@ Names/Contact Information
 -Lydia Spurrier, spurrier@umd.edu
 
 Project Description
--The project, Food For Terps, is a page for college park students, teachers, and residence to be able to search for a variety of restaurants to visit in the area that can be filtered through dietary restrictions, pirce, and ratings.
+-The project, Food For Terps, is a page for college park students, teachers, and residents to be able to search for a variety of restaurants in the area through criteria based on dietary restrictions, cuisine type, price, and rating.
