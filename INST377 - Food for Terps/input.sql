@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: May 02, 2019 at 04:14 AM
+-- Generation Time: May 22, 2019 at 02:09 AM
 -- Server version: 5.7.26-0ubuntu0.18.04.1
 -- PHP Version: 7.2.17-0ubuntu0.18.04.1
 
@@ -35,15 +35,6 @@ CREATE TABLE `input` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
--- Dumping data for table `input`
---
-
-INSERT INTO `input` (`id`, `diet`, `cuisine`, `rate`, `price`) VALUES
-(1, '', '', 4, 1),
-(2, '', '', 4, 3),
-(3, 'Vegetarian', 'Bar', 4, 3);
-
---
 -- Indexes for dumped tables
 --
 
@@ -61,7 +52,7 @@ ALTER TABLE `input`
 -- AUTO_INCREMENT for table `input`
 --
 ALTER TABLE `input`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=37;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

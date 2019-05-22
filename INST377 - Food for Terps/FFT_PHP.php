@@ -22,7 +22,7 @@
    */
 
   $dbuser = 'root';
-  $dbpass = 'password';
+  $dbpass = 'spurrierly';
   $dbname = 'foodforterps';
 
 $conn = new mysqli("localhost", $dbuser, $dbpass, $dbname);
